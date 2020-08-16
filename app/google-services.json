@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "344336738244",
+    "firebase_url": "https://payphone-b299f.firebaseio.com",
+    "project_id": "payphone-b299f",
+    "storage_bucket": "payphone-b299f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344336738244:android:fe0cde491422c94d60e691",
+        "android_client_info": {
+          "package_name": "com.pay.payphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344336738244-4c7pnrj32nbu86oa6244j8vdftpad1qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pay.payphone",
+            "certificate_hash": "40f5795757e0fdb52ecf6e7c7d436edd904e3c21"
+          }
+        },
+        {
+          "client_id": "344336738244-866370b4rj7u4bvrklvo11iugvesmp5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBuBeS2kOV5G9eTa8uwfME0JAg2cA8n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344336738244-866370b4rj7u4bvrklvo11iugvesmp5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
