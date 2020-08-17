@@ -12,6 +12,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_home.*
 
 
@@ -51,6 +52,7 @@ class HomeActivity : AppCompatActivity() {
 
     private fun payphone(email: String, provider: String){
         title = "Pay Phone"
+        //var database = Firebase.database();
         val database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("payphone-b299f")
 
@@ -69,12 +71,12 @@ class HomeActivity : AppCompatActivity() {
                 // whenever data at this location is updated.
                 val value =
                     dataSnapshot.getValue(String::class.java)
-                Log.d(FragmentActivity.TAG, "Value is: $value")
+               // Log.d(FragmentActivity.TAG, "Value is: $value")
             }
 
             override fun onCancelled(error: DatabaseError) {
                 // Failed to read value
-                Log.w(FragmentActivity.TAG, "Failed to read value.", error.toException())
+               // Log.w(FragmentActivity.TAG, "Failed to read value.", error.toException())
             }
         })
 
