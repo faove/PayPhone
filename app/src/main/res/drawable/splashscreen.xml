@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/colorPrimaryDark"/>
+    <item android:drawable="@color/colorPrimary"/>
     <item>
-        <bitmap android:src="@drawable/common_google_signin_btn_icon_dark"
+        <bitmap android:src="@mipmap/payphone"
             android:gravity="center"
             />
     </item>
